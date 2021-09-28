@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "link": "granica-polsko-ukrainska",
+        "imgs": ["66429555_870928593263019_4865341710277804032_n.jpg", "70397573_915273555495189_1396037243633664000_o.jpg"],
+        "title": "Granica Polsko-Ukraińska",
+        "description": "",
+        "badge": "Inne opracowania",
+        "date": ""
+    },{
+        "id": 1,
+        "link": "suwnica-siedlce",
+        "imgs": ["53672035_796118844077328_4829415309574144000_o.jpg"],
+        "title": "Suwnica Siedlce",
+        "description": "",
+        "badge": "Inne opracowania",
+        "date": ""
+    },{
+        "id": 2,
+        "link": "apartamenty-zegrze",
+        "imgs": ["DJI_0266.JPG", "DJI_0272.JPG", "DJI_0275.JPG", "DJI_0281.JPG", "DJI_0406.JPG", "IMG_20191209_105313.jpg", "DJI_0282.JPG", "DJI_0399.JPG", "DJI_0288.JPG", "DJI_0387.JPG", "DJI_0394.JPG", "DJI_0391.JPG"],
+        "title": "Apartamenty Zegrze",
+        "description": "Etap I, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi i garażem podziemnym oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.09.2019",
+        "content": {
+            "obiekt": "Apartamenty Zegrze",
+            "opis": "Etap I, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi i garażem podziemnym oraz niezbędną infrastrukturą techniczną",
+            "inwestor": "Mostostal SA",
+            "wykonawca": "Monstostal SA",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Wrzesień 2019",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0744401154952!2d21.035854215805287!3d52.45967927980292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd58dc06cb33%3A0xa799c8f41709669d!2sRezydencja%20Zegrze%20-%20gotowe%20mieszkania%20nad%20Zalewem%20Zegrzy%C5%84skim!5e0!3m2!1spl!2spl!4v1632836978933!5m2!1spl!2spl"
+        }
+    },
+    {
+        "id": 50,
+        "link": "willa-gryf",
+        "imgs": ["willagryf.jpg"],
+        "title": "Willa Gryf",
+        "description": "Biblioteka Publiczna w Konstancinie-Jeziornie. Adaptacja zabytkowego budynku",
+        "badge": "Obsługa inwestycji > Budynki zabytkowe",
+        "date": "16.12.2018"
+    }
+]
