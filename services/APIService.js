@@ -11,7 +11,6 @@ export default class APIService {
     }
     async getRealizations(options) {
         if (options !== undefined) {
-            // options.hasOwnProperty('count')
             return ((await axios.get('data/realizations.json')).data).length
         }
             
