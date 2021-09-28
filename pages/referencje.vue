@@ -2,7 +2,7 @@
   <section class="section">
         <h1>Referencje</h1>
         <section class="cards">
-            <a :href="`/references/${item.pdf}.pdf`" class="card" v-for="(item, id) in list" :key="id">
+            <a :href="`/references/${item.pdf}.pdf`" class="card" v-for="(item, id) in realizations" :key="id">
                 <img :src="require(`~/assets/references/${item.pdf}-1.jpg`)" :alt="'Referencja firmy '+ item.author">
                 <div class="card__title">{{ item.author }}</div>
             </a>
@@ -12,20 +12,11 @@
 </template>
 
 <script>
-import APIService from '@/services/ApiService'
 export default {
-    data() {
-      return {
-        list: [],
-      }
-    },
-    mounted() {
-        this.getReferences()
-    },
-    methods: {
-        getReferences: async function() {
-			this.list = (await new APIService().getReferences())
-		}
+    computed: {
+        realizations(){
+            return this.$store.state.references
+        }
     }
   }
 </script>
