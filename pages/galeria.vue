@@ -51,6 +51,11 @@ export default {
       handleHide() {
         this.visible = false
       }
+  },
+  head() {
+    return {
+      title: `Galeria`
+    }
   }
 }
 </script>

@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import APIService from '@/services/ApiService'
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 export default {
@@ -40,7 +39,9 @@ export default {
             slidesPerView: 'auto',
             autoplay: {
                 "delay": 5500
-            }
+            },
+            grabCursor: true,
+            lazy: true
         }
       }
     },
@@ -52,16 +53,6 @@ export default {
   }
 </script>
 
-<style>
-.swiper-pagination-bullet{
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-}
-.swiper-pagination-bullet-active{
-    background-color: #FECF45
-}
-</style>
 <style scoped>
 a{
     text-decoration: none;

@@ -38,22 +38,21 @@
                 </section>
             </div>
         </section>
-        <section class="realisations">
+        <section class="realisations" v-if="realization">
             <NuxtLink to="/realizacje" tag="article" class="card">
-            
                 <div class="card__image">
-                    <img src="https://static.nieruchomosci.interia.pl/news_image/0001/05/thumb_4818_news_image_big.jpeg" alt="">
+                    <img :src="require(`assets/realizations/${realization.imgs[0]}`)" :alt="realization.title">
                     <span class="card__title">Ostatnie <span class="special-text">realizacje</span></span>
                 </div>
-                <span class="card__name">Topiel N18</span>
+                <span class="card__name"> {{ realization.title }} </span>
                 <div class="card__fields">
-                    <div class="card__field">
+                    <div class="card__field" v-if="realization.localization">
                         <span class="card__field__title">Lokalizacja</span>
-                        <span class="card__field__value">Warszawa</span>
+                        <span class="card__field__value">{{ realization.localization }}</span>
                     </div>
                     <div class="card__field">
                         <span class="card__field__title">Data</span>
-                        <span class="card__field__value">3 Sierpnia 2018</span>
+                        <span class="card__field__value">{{ realization.date }}</span>
                     </div>
                 </div>
             </NuxtLink>
@@ -70,6 +69,9 @@ export default {
         },
         references(){
             return this.$store.state.references.length
+        },
+        realization(){
+            return this.$store.getters.getLastRealization()
         }
     }
 }
@@ -168,7 +170,7 @@ export default {
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: #eeeeee url('~@/assets/images/hero-background.png') no-repeat center;
+    background: #eeeeee url('~@/assets/images/hero-background.webp') no-repeat center;
     background-size: cover; 
     display: flex;
     flex-wrap: wrap;

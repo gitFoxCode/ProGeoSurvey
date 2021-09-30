@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import APIService from '@/services/ApiService'
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
 export default {
@@ -37,7 +36,9 @@ export default {
             slidesPerView: 'auto',
             autoplay: {
                 "delay": 5500
-            }
+            },
+            grabCursor: true,
+            lazy: true
         }
       }
     },

@@ -17,7 +17,7 @@
             <ul>
                 <li><nuxt-link to="/">Start</nuxt-link></li>
                 <li><nuxt-link to="/oferta">Oferta</nuxt-link></li>
-                <li><nuxt-link to="/realizacje">Relizacje</nuxt-link></li>
+                <li><nuxt-link to="/realizacje">Realizacje</nuxt-link></li>
                 <li><nuxt-link to="/referencje">Referencje</nuxt-link></li>
                 <li><nuxt-link to="/galeria">Galeria</nuxt-link></li>
                 <li><nuxt-link to="/#kontakt">Kontakt</nuxt-link></li>

@@ -106,7 +106,8 @@ export default {
             loopFillGroupWithBlank: "true",
             autoplay: {
                 "delay": 1500
-            }
+            },
+            grabCursor: true
         }
       }
     },

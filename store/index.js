@@ -1,4 +1,4 @@
-import APIService from '@/services/ApiService'
+import APIService from '~/services/ApiService'
 
 export const state = () => ({
     references: [],
@@ -6,8 +6,11 @@ export const state = () => ({
 })
 
 export const getters = {
+    getLastRealization: (state) => () => {
+        return state.realizations[state.realizations.length-1]
+    },
     getRealizations: (state) => () =>{
-        return state.realization
+        return state.realizations
     },
     getReferences: (state) => () =>{
         return state.references

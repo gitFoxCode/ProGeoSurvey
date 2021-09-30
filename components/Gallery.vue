@@ -45,7 +45,9 @@ export default {
                 slidesPerView: 'auto',
                 autoplay: {
                     "delay": 5500
-                }
+                },
+                grabCursor: true,
+                lazy: true
             },
             visible: false,
             index: 0   // default: 0

@@ -6,7 +6,8 @@
         "title": "Granica Polsko-Ukraińska",
         "description": "",
         "badge": "Inne opracowania",
-        "date": ""
+        "date": "",
+        "localization": ""
     },{
         "id": 1,
         "link": "suwnica-siedlce",
@@ -14,7 +15,8 @@
         "title": "Suwnica Siedlce",
         "description": "",
         "badge": "Inne opracowania",
-        "date": ""
+        "date": "",
+        "localization": ""
     },{
         "id": 2,
         "link": "apartamenty-zegrze",
@@ -23,6 +25,7 @@
         "description": "Etap I, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi i garażem podziemnym oraz niezbędną infrastrukturą techniczną",
         "badge": "Obsługa inwestycji > Budynki mieszkalne",
         "date": "1.09.2019",
+        "localization": "",
         "content": {
             "obiekt": "Apartamenty Zegrze",
             "opis": "Etap I, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi i garażem podziemnym oraz niezbędną infrastrukturą techniczną",
@@ -34,6 +37,122 @@
             "data": "Wrzesień 2019",
             "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0744401154952!2d21.035854215805287!3d52.45967927980292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd58dc06cb33%3A0xa799c8f41709669d!2sRezydencja%20Zegrze%20-%20gotowe%20mieszkania%20nad%20Zalewem%20Zegrzy%C5%84skim!5e0!3m2!1spl!2spl!4v1632836978933!5m2!1spl!2spl"
         }
+    },{
+        "id": 3,
+        "link": "atelier-praga",
+        "imgs": ["65605228_867087130313832_6864897467603746816_o.jpg", "DJI_0006.JPG", "DJI_0009.JPG"],
+        "title": "Atelier Praga",
+        "description": "Etap II, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.02.2019",
+        "localization": "",
+        "content": {
+            "obiekt": "Apartamenty Zegrze",
+            "opis": "Etap II, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi oraz niezbędną infrastrukturą techniczną",
+            "inwestor": "Rembud",
+            "wykonawca": "Bouygues Immobilier Polska",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Luty 2019",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1221.3251691628645!2d21.0344902!3d52.2497345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd1e56a2d231%3A0x3d2e13cab73fb048!2sAtelier%20Praga!5e0!3m2!1spl!2spl!4v1632903628820!5m2!1spl!2spl"
+        }
+    },{
+        "id": 4,
+        "link": "budynek-mieszkalny-ul-lukiska",
+        "imgs": ["budynek-mieszkalny-lukiska.jpg"],
+        "title": "Budynek mieszkalny ul. Łukiska",
+        "description": "Etap II, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.02.2019",
+        "localization": "",
+        "content": {
+            "obiekt": "Apartamenty Zegrze",
+            "opis": "Etap II, budynek mieszkalny wielorodzinny z funkcjami handlowo – usługowo – biurowymi oraz niezbędną infrastrukturą techniczną",
+            "inwestor": "Rembud",
+            "wykonawca": "Bouygues Immobilier Polska",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Luty 2019",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1221.3251691628645!2d21.0344902!3d52.2497345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd1e56a2d231%3A0x3d2e13cab73fb048!2sAtelier%20Praga!5e0!3m2!1spl!2spl!4v1632903628820!5m2!1spl!2spl"
+        }
+    },{
+        "id": 5,
+        "link": "budynek-mieszkalny-ul-zasciankowa",
+        "imgs": ["budynek-mieszkalny-zasciankowa.jpg","18527488_429173400771876_8339641699000263368_o.jpg"],
+        "title": "Budynek mieszkalny ul. Zaściankowa",
+        "description": "Budynek mieszkalny wielorodzinny z garażem podziemnym oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.04.2018",
+        "localization": "",
+        "content": {
+            "obiekt": "Zielony Wilanów",
+            "inwestor": "COGIK Sp. z o.o.",
+            "wykonawca": "COGIK Sp. z o.o.",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Kwiecień 2019",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1467.5183401674692!2d21.1198262!3d52.1705049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d32044956ef%3A0xd20c7b1f787210c8!2sZa%C5%9Bciankowa%2C%20Warszawa!5e1!3m2!1spl!2spl!4v1632904010173!5m2!1spl!2spl"
+        }
+    },{
+        "id": 6,
+        "link": "budynek-mieszkalny-ul-skargi",
+        "imgs": ["20157662_459260101096539_2377916342951226860_o.jpg","21752537_483712505317965_4827948632046506657_o.jpg"],
+        "title": "Budynek mieszkalny ul. Piotra Skargi",
+        "description": "Budynek mieszkalny wielorodzinny z garażem podziemnym oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.09.2016",
+        "localization": "",
+        "content": {
+            "obiekt": "Piotra Skargi 54",
+            "inwestor": "RSM PRAGA",
+            "wykonawca": "TELKA",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Wrzesień 2016",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1785.1359040682562!2d21.047036174583273!3d52.26966999273387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc26aa6ab911%3A0x290ff6551e833c46!2sKs.%20Skargi%2054%2C%2003-516%20Warszawa!5e1!3m2!1spl!2spl!4v1632904194068!5m2!1spl!2spl"
+        }
+    },{
+        "id": 7,
+        "link": "browary-warszawskie",
+        "imgs": ["53261091_805404189815460_9093975783306690560_o.jpg","62134958_850090542013491_6802420455249543168_o.jpg","73230210_970457766643434_782269503454052352_o.jpg","DJI_0079.JPG", "DJI_0080.JPG", "DJI_0090.JPG", "DJI_0095.JPG", "DJI_0104.JPG", "DJI_0105.JPG", "DJI_0114.JPG", "DJI_0123.JPG", "DJI_0125.JPG"],
+        "title": "Browary Warszawskie",
+        "description": "APARTAMENTY PRZY WARZELNI, budynek mieszkalny wielorodzinny z garażem podziemnym oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.04.2019",
+        "localization": "",
+        "content": {
+            "obiekt": "Browary Warszawskie",
+            "inwestor": "ECHO INESTMENT",
+            "wykonawca": "MOTA ENGIL",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Kwiecień 2019",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d731.5818431695394!2d20.9870955!3d52.2352158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc844683ba73%3A0x9562ffd056b83c84!2sBiuro%20sprzeda%C5%BCy%20mieszka%C5%84%20%E2%80%93%20Echo%20Investment%20S.A.%20-%20Grzybowska%2058!5e1!3m2!1spl!2spl!4v1632904488236!5m2!1spl!2spl"
+        }
+    },{
+        "id": 8,
+        "link": "echo-stacja-wola",
+        "imgs": ["DJI_0328.JPG","DJI_0329.JPG","DJI_0338.JPG","DJI_0339.JPG", "DJI_0344.JPG", "DJI_0348.JPG", "DJI_0352.JPG", "DJI_0363.JPG", "DJI_0364.JPG", "DJI_0373.JPG", "DJI_0382.JPG", "DJI_0579.JPG", "DJI_0583.JPG", "DJI_0586.JPG", "DJI_0589.JPG", "DJI_0591.JPG", "DJI_0594.JPG", "DJI_0595.JPG"],
+        "title": "Stacja Wola",
+        "description": "ETAP I, osiedle mieszkalne wielorodzinne z garażem podziemnym oraz niezbędną infrastrukturą techniczną",
+        "badge": "Obsługa inwestycji > Budynki mieszkalne",
+        "date": "1.09.2019",
+        "localization": "",
+        "content": {
+            "obiekt": "Stacja Wola",
+            "inwestor": "ECHO INESTMENT",
+            "wykonawca": "POLIMEX MOSTOSTAL",
+            "rodzaj": "kompleksowa obsługa geodezyjna budowy",
+            "zakres": "tyczenia, pomiary, monitoring przemieszczeń, inwentaryzacja powykonawcza, pomiar lokali",
+            "czas": "12 miesięcy",
+            "data": "Wrzesień 2019",
+            "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1005.9250343581167!2d20.9563725!3d52.2215061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecb5c3c86c887%3A0x61ea6c60482dc7d1!2sMOYA!5e1!3m2!1spl!2spl!4v1632904778795!5m2!1spl!2spl"
+        }
     },
     {
         "id": 50,
@@ -42,6 +161,7 @@
         "title": "Willa Gryf",
         "description": "Biblioteka Publiczna w Konstancinie-Jeziornie. Adaptacja zabytkowego budynku",
         "badge": "Obsługa inwestycji > Budynki zabytkowe",
-        "date": "16.12.2018"
+        "date": "16.12.2018",
+        "localization": "Konstancin-Jeziorna"
     }
 ]

@@ -1,7 +1,7 @@
 export default {
-  server: {
-    host: '0' // default: localhost
-  },
+  // server: {
+  //   host: '0' // default: localhost
+  // },
 
   static: {
     prefix: false
@@ -9,6 +9,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'ProGeoSurvey',
+    titleTemplate: '%s | ProGeoSurvey - Geodezja',
     htmlAttrs: {
       lang: 'pl'
     },
@@ -50,7 +51,10 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    'nuxt-lazy-load'
+   // '@nuxt/image',
+    ['nuxt-lazy-load',{
+      defaultImage: '/images/placeholder.svg'
+    }]
   ],
   
 

@@ -59,7 +59,7 @@
         </div>
    </div>
     <div v-else class="container padding">
-        STRONA NIEZNALEZIONA
+        <NotFound />
     </div>
 </template>
 
@@ -82,7 +82,9 @@ export default {
                 slidesPerView: 'auto',
                 autoplay: {
                     "delay": 5500
-                }
+                },
+                grabCursor: true,
+                lazy: true
             },
             visible: false,
             index: 0
@@ -107,15 +109,7 @@ export default {
   },
    head() {
       return {
-        title: 'Realizacje | ProGeoSurvey - Geodezja',
-        meta: [
-          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'My custom description'
-          }
-        ]
+        title: `${this.realization.title || "Realizacje"}`
       }
     }
 }

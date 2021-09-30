@@ -49,4 +49,13 @@ strong{
     transition: all 0.4s;
     padding: 15px 30px;
 }
+
+.swiper-pagination-bullet{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 5px !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: #FECF45 !important;
+}
 </style>

@@ -17,6 +17,11 @@ export default {
         realizations(){
             return this.$store.state.references
         }
+    },
+    head() {
+      return {
+        title: `Referencje`
+      }
     }
   }
 </script>

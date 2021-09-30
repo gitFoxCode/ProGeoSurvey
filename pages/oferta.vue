@@ -28,7 +28,7 @@
         </div>
         <div class="column">
             <h2 class="ofert-title">Geodezja klasyczna <svg-icon icon="diamond"/></h2>
-            <p>Usługi które oferujemy obejmują wszystkie możliwe prace z zakresu geodezji. Pomożemy i doradzimy w każdym problemie. Dzięki kilkunastoletniego doświadczania nie zaskoczy nas żadne zlecenie.</p>
+            <p>Usługi, które oferujemy obejmują wszystkie możliwe prace z zakresu geodezji. Pomożemy i doradzimy w każdym problemie. Dzięki kilkunastoletniego doświadczania nie zaskoczy nas żadne zlecenie.</p>
             <ul>
                 <li>Tyczenie obiektów budowlanych <svg-icon icon="diamond"/></li>
                 <li>Inwentaryzacje powykonawcze <svg-icon icon="diamond"/></li>
@@ -52,15 +52,7 @@
 export default {
    head() {
       return {
-        title: 'Oferta | ProGeoSurvey - Geodezja',
-        meta: [
-          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          {
-            hid: 'description',
-            name: 'description',
-            content: 'My custom description'
-          }
-        ]
+        title: 'Oferta'
       }
     }
 }
