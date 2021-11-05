@@ -58,4 +58,44 @@ strong{
 .swiper-pagination-bullet-active{
     background-color: #FECF45 !important;
 }
+.admin-btn{
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #eee;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: #222;
+    text-decoration: none;
+}
+.admin-nav{
+    margin-top: 20px;
+}
+.admin-btn.success{
+    background-color: #61eb34;
+    color: #FFF !important;
+    transition: all 0.4s;
+}
+.admin-btn.success:hover{
+    transition: all 0.4s;
+    background-color: #4ec228;
+}
+.admin-btn.danger{
+    background-color: #eb3a34;
+    color: #FFF !important;
+    transition: all 0.4s;
+}
+.admin-btn.success:hover{
+    transition: all 0.4s;
+    background-color: #c7342f;
+}
+.admin-btn.edit{
+    background-color: #eb9634;
+    color: #FFF !important;
+    transition: all 0.4s;
+}
+.admin-btn.edit:hover{
+    transition: all 0.4s;
+    background-color: #cc802a;
+}
 </style>

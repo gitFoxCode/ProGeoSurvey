@@ -1,6 +1,9 @@
 <template>
   <section class="realizations">
       <h1>Realizacje</h1>
+      <nav class="admin-nav">
+          <a href="#" class="admin-btn success"><svg-icon icon="plus"/> Dodaj</a>
+      </nav>
       <nuxt-link :to="`/realizacje/${realization.link}`"
         v-for="(realization, id) in realizations" 
         :key="id">

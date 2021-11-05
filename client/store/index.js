@@ -18,6 +18,9 @@ export const getters = {
     getRealizationByLink: (state) => (link) => {
         return state.realizations.find(realization => realization.link == link)
     },
+    getRealizationById: (state) => (id) => {
+        return state.realizations.find(realization => realization.id == id)
+    },
     getRealizationsCount: (state) => () => {
         return state.realizations.length
     },

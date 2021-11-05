@@ -11,13 +11,16 @@
         <li><NuxtLink to="/referencje">Referencje</NuxtLink></li>
         <li><NuxtLink to="/galeria">Galeria</NuxtLink></li>
         <li><NuxtLink to="/#kontakt">Kontakt</NuxtLink></li>
+        <li class="nav-admin"><NuxtLink to="/admin" v-if="$auth.loggedIn"><svg-icon icon="admin-badge"/> Admin</NuxtLink></li>
       </ul>
     </nav>
   </header>
 </template>
 
 <script>
+import SvgIcon from './SvgIcon.vue';
 export default {
+  components: { SvgIcon },
   data(){
     return {
       scrollPosition: null
@@ -35,6 +38,10 @@ export default {
 </script>
 
 <style scoped>
+.nav-admin a{
+  font-weight: bold;
+  color: red !important;
+}
 header{
   position: fixed;
   top: 0;

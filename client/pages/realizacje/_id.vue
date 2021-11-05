@@ -20,6 +20,10 @@
                 @hide="handleHide"
             ></vue-easy-lightbox>
         </client-only>
+        <nav class="admin-nav">
+            <NuxtLink class="admin-btn edit" :to='`/admin/edit-${realization.id}`'><svg-icon icon="edit"/> Edytuuj</NuxtLink>
+            <NuxtLink class="admin-btn danger" :to='`/admin/delete-${realization.id}`'><svg-icon icon="delete"/> Usuń</NuxtLink>
+        </nav>
         <p v-if="realization.description != ''" class="description"> {{ realization.description }} </p>
         <div class="informations" v-if="realization.hasOwnProperty('content')">
             <ul>

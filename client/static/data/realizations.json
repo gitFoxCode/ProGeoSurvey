@@ -7,7 +7,18 @@
         "description": "",
         "badge": "Inne opracowania",
         "date": "",
-        "localization": ""
+        "localization": "",
+        "content": {
+            "obiekt": "",
+            "opis": "",
+            "inwestor": "",
+            "wykonawca": "",
+            "rodzaj": "",
+            "zakres": "",
+            "czas": "",
+            "data": "Wrzesień 2019",
+            "mapa": ""
+        }
     },{
         "id": 1,
         "link": "suwnica-siedlce",
@@ -16,7 +27,18 @@
         "description": "",
         "badge": "Inne opracowania",
         "date": "",
-        "localization": ""
+        "localization": "",
+        "content": {
+            "obiekt": "",
+            "opis": "",
+            "inwestor": "",
+            "wykonawca": "",
+            "rodzaj": "",
+            "zakres": "",
+            "czas": "",
+            "data": "Wrzesień 2019",
+            "mapa": ""
+        }
     },{
         "id": 2,
         "link": "apartamenty-zegrze",
