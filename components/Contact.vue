@@ -11,7 +11,7 @@
                             Dane kontaktowe
                         </span>
                         <ul class="card__content">
-                            <li><svg-icon icon="phone"/> +48 669 405 001</li>
+                            <li><a href="tel:669450001"><svg-icon icon="phone"/> +48 669 450 001</a></li>
                             <li><svg-icon icon="email"/> biuro@pro-geo.pl</li>
                             <li><svg-icon icon="www"/> pro-geo.pl</li>
                         </ul>
@@ -21,7 +21,7 @@
                             Siedziba biura
                         </span>
                         <ul class="card__content">
-                            <li><svg-icon icon="localization"/> ul. Słomińskiego 1, 1 piętro biuro nr. 1</li>
+                            <li><svg-icon icon="localization"/> ul. Budowlana 7/21, 03-315 Warszawa</li>
                         </ul>
                     </div>
                     <div class="contact__card">
@@ -31,10 +31,10 @@
                         <ul class="card__content">
                             <li>
                                 <svg-icon icon="localization"/>
-                                <p>ProGeoSurvey</p>
+                                <p>PRO GEO SURVEY Sp. z o. o.</p>
                                 <p>Filip Kołodziejak</p>
-                                <p>ul. Marmonicka 83/87 lok. 34</p>
-                                <p>01 - 802 Warszawa</p>
+                                <p>ul. Budowlana 7/21</p>
+                                <p>03-315 Warszawa</p>
                             </li>
                         </ul>
                     </div>
@@ -45,8 +45,8 @@
                         <ul class="card__content">
                             <li>
                                 <svg-icon icon="adress-book"/>
-                                <p>NIP 52785218181</p>
-                                <p>REGON 14545481818</p>
+                                <p>NIP 524 289 76 12</p>
+                                <p>REGON 38554096200000</p>
                             </li>
                         </ul>
                     </div>
@@ -63,22 +63,21 @@
                 </section>
             </div>
             <div class="contact__col">
-                <!-- MAPA -->
+
                 <GmapMap
-                    :center="{lat:10, lng:10}"
-                    :zoom="7"
-                    map-type-id="terrain"
-                    style="width: 100%; height: 100%; min-height: 300px"
-                    >
-                <!--  <GmapMarker
-                        :key="index"
-                        v-for="(m, index) in markers"
-                        :position="m.position"
-                        :clickable="true"
-                        :draggable="true"
-                        @click="center=m.position"
-                    />-->
-                    </GmapMap>
+                :center="{lat:52.28134041727358, lng: 21.024646836963317}"
+                :zoom="11"
+                map-type-id="terrain"
+                style="width: 500px; height: 450px; min-height: 300px; max-width: 100%"
+            >
+            <GmapMarker
+                key="1"
+                :position="{lat: 52.28134041727358, lng: 21.024646836963317}"
+                :clickable="true"
+                :draggable="true"
+                @click="center={lat: 52.28134041727358, lng: 21.024646836963317}"/>
+            </GmapMap>
+
             </div>
         </div>
     </section>
@@ -182,6 +181,10 @@ span.title{
 .card__content{
     font-weight: 500;
     margin-top: 5px;
+}
+.card__content a{
+    color: #111;
+    text-decoration: none;
 }
 .contact__card{
     margin-top: 20px;

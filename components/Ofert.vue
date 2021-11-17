@@ -18,6 +18,12 @@
                 </NuxtLink>
                 <NuxtLink to="/oferta">
                     <div class="card">
+                        <svg-icon icon="scan"/>
+                        <span class="card__title">Monitoring strukturalny</span>
+                    </div>
+                </NuxtLink>
+                <NuxtLink to="/oferta">
+                    <div class="card">
                         <svg-icon icon="laser"/>
                         <span class="card__title">Skaning laserowy</span>
                     </div>
@@ -48,8 +54,6 @@ export default{
     z-index: 1;
     padding-top: 100px;
     padding-bottom: 170px;
-    background: url('~@/assets/images/bg-1.svg') 110% 45%, url('~@/assets/images/bg-2.svg') -10% 60%;
-    background-repeat: no-repeat;
 }
 .ofert::after{
     content: "";
@@ -148,6 +152,9 @@ p{
     flex-wrap: wrap;
     justify-content: center;
 }
+.cards__column a{
+    color: #222;
+}
 .card{
     margin: 50px 100px;
 }
@@ -165,6 +172,10 @@ p{
     }
 }
 @media (min-width: 1260px){
+    .ofert{
+        background: url('~@/assets/images/bg-1.svg') 110% 45%, url('~@/assets/images/bg-2.svg') -10% 60%;
+        background-repeat: no-repeat;
+    }
     .card{
         margin: 0;
         margin-top: 30px;
@@ -174,7 +185,7 @@ p{
         flex-wrap: wrap;
         justify-content: space-between;
         width: 80%;
-        max-width: 1000px;
+        max-width: 1220px;
         position: relative;
     }
     .cards__column::after{

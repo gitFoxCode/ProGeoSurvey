@@ -1,14 +1,14 @@
 <template>
     <footer class="footer">
         <div class="logo">
-            <img src="~@/assets/images/progeosurvey-logo.svg" alt="ProGeoSurvey Logotyp">
+            <img src="~@/assets/images/progeosurvey-logo.svg" alt="PRO GEO SURVEY Sp. z o. o. Logotyp">
         </div>
         <div class="contact">
             <span class="contact__title">
                 Kontakt
             </span>
             <ul class="contact__content">
-                <li><svg-icon icon="phone"/> +48 669 405 001</li>
+                <li><a href="tel:669450001"><svg-icon icon="phone"/> +48 669 450 001</a></li>
                 <li><svg-icon icon="email"/> biuro@pro-geo.pl</li>
                 <li><svg-icon icon="www"/> pro-geo.pl</li>
             </ul>
@@ -68,6 +68,10 @@ export default{
 }
 .contact__content li{
     margin-top: 5px;
+}
+.contact__content a{
+    text-decoration: none;
+    color: #fff;
 }
 nav{
     margin-top: 20px;

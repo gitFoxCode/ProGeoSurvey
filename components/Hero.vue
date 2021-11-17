@@ -38,24 +38,22 @@
                 </section>
             </div>
         </section>
-        <section class="realisations" v-if="realization">
-            <NuxtLink to="/realizacje" tag="article" class="card">
-                <div class="card__image">
-                    <img :src="require(`assets/realizations/${realization.imgs[0]}`)" :alt="realization.title">
-                    <span class="card__title">Ostatnie <span class="special-text">realizacje</span></span>
-                </div>
-                <span class="card__name"> {{ realization.title }} </span>
-                <div class="card__fields">
-                    <div class="card__field" v-if="realization.localization">
-                        <span class="card__field__title">Lokalizacja</span>
-                        <span class="card__field__value">{{ realization.localization }}</span>
-                    </div>
-                    <div class="card__field">
-                        <span class="card__field__title">Data</span>
-                        <span class="card__field__value">{{ realization.date }}</span>
-                    </div>
-                </div>
-            </NuxtLink>
+        <section class="map">
+            <GmapMap
+                :center="{lat:52, lng:19}"
+                :zoom="6"
+                map-type-id="terrain"
+                style="width: 500px; height: 450px; min-height: 300px; max-width: 100%"
+            >
+             <GmapMarker
+                :key="index"
+                v-for="(m, index) in markers"
+                :position="m"
+                :clickable="true"
+                :draggable="true"
+                @click="center=m"
+                />
+            </GmapMap>
         </section>
     </section>
 </template>
@@ -63,15 +61,21 @@
 <script>
 
 export default {
+    data(){
+        return {
+            markers: [
+                {lat: 54.353393559747225, lng: 18.601434602367117},
+                {lat: 52.28134041727358, lng: 21.024646836963317},
+                {lat: 51.762895606012485, lng: 19.442475061864524},
+            ]
+        }
+    },
     computed: {
         realizations(){
             return this.$store.state.realizations.length
         },
         references(){
             return this.$store.state.references.length
-        },
-        realization(){
-            return this.$store.getters.getLastRealization()
         }
     }
 }
@@ -254,7 +258,7 @@ h1{
     font-weight: bold;
     max-width: 14ch;
 }
-.realisations{
+.map{
     margin: 50px 0;
 }
 @media (min-width: 1260px) {
@@ -265,7 +269,7 @@ h1{
     .info{
         margin-right: 50px;
     }
-    .realisations{
+    .map{
         width: auto;
         margin-left: 50px;
     }
